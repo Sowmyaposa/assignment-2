@@ -1,0 +1,26 @@
+while True:
+    a = int(input("Enter Marks Obtained in Subjects: "))
+   
+    if a >= 90 and a <= 100:
+        print("Your Grade is A+")
+    elif a >= 80 and a <= 89:
+        print("Your Grade is A")
+    elif a >= 70 and a <= 79:
+        print("Your Grade is B")
+    elif a >= 60 and a <= 69:
+        print("Your Grade is C")
+    elif a >= 50 and a <= 59:
+        print("Your Grade is D")
+    elif a < 50:
+        print("Fail")
+    else:
+        print("Invalid Input!")
+   
+    b = input("Type 1 if you want to continue or 0 to discontinue: ")
+
+    if b == "1":
+        continue
+    elif b == "0":
+        break
+    else:
+        print("Invalid input, the program will continue.")
